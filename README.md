@@ -1,6 +1,6 @@
 # Markdown to Modern Submission DOCX Converter
 
-A Node.js script that converts a Markdown file into a properly formatted DOCX file using modern short-story manuscript submission standards (Shunn-style format).
+A Node.js script that converts a Markdown file into a properly formatted DOCX file using modern short-story manuscript submission standards ([Shunn-style format](https://www.shunn.net/format/story/?fbclid=IwAR02-eBvtNslAsLXWNpm0mEcN7O3WFKMS23sjJmF3N0xMPyhLvZDBMm5gA0)).
 
 The output is designed to open cleanly in Microsoft Word and Apple Pages, with:
 
