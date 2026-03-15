@@ -40,15 +40,20 @@ npm install docx unified remark-parse remark-gfm unist-util-visit
 # Usage
 
 ```bash
-node md2sub.mjs input.md [output.docx]
+node md2sub.mjs [--section-break TEXT] [--font FONT_NAME] input.md [output.docx]
 ```
 
 If `output.docx` is omitted, the file `submission.docx` is created.
+
+If `--section-break` is omitted, thematic breaks render as centered `***`.
+If `--font` is omitted, the document font defaults to `Times New Roman`.
 
 Example:
 
 ```bash
 node md2sub.mjs story.md story.docx
+node md2sub.mjs --section-break "#" story.md story.docx
+node md2sub.mjs --font "Courier New" story.md story.docx
 ```
 
 **NOTE**: See [benchmark.md](benchmark.md) for feature test input and [submission.docx](submission.docx) for result.
@@ -186,8 +191,10 @@ Markdown thematic breaks:
 Converted to centered manuscript scene break:
 
 ```
-#
+***
 ```
+
+You can override that marker with `--section-break`.
 
 ---
 

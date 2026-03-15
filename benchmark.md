@@ -17,6 +17,8 @@ ShortTitle: Bench Test
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent **suscipit sapien** sed *tortor* vulputate, et vulputate justo ultrices. Duis eget sem non mauris hendrerit aliquet sed nec felis. Integer eu lacus vitae ipsum congue faucibus vel sed libero.
 
+Em dash: This is a test--of the emdash logic--which should replace twice on this line.
+
 Italic Test: *ITALIC*
 
 Bold Test: **BOLD**
@@ -49,7 +51,7 @@ Curabitur ut est eget tellus volutpat egestas. Donec ultricies, enim et luctus t
 
 Paragraphs can reference resources like [docx documentation](https://docx.js.org/) directly while still rendering as text. Etiam a erat condimentum, condimentum justo et, eleifend augue. Etiam lacinia viverra mauris in pharetra.
 
-Ut a arcu tellus. Vivamus luctus arcu feugiat mattis rhoncus. Integer id lorem vitae tortor blandit posuere sit amet eget turpis. Vivamus tincidunt tellus sit amet metus dictum, nec efficitur quam finibus.
+Em dashes should be implemented. Ut a arcu tellus. Vivamus luctusarcu--feugiat mattis rhoncus. Integer id--lorem vitae tortor--blandit posuere sit amet eget turpis. Vivamus tincidunt tellus sit amet metus dictum, nec efficitur quam finibus.
 
 - Bullet lists must appear
 - Each bullet should wrap to demonstrate hanging indent
